@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .apple_logo{
    width:14px
 }
-.menu-one{
+.menu_one{
     display: grid;
     grid-auto-flow: column;
     background-color: rgba(0,0,0,0.8);
@@ -23,8 +24,27 @@
 a{
     color:rgb(193, 193, 193);
     text-decoration: none;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;}
 .material-symbols-outlined{
-    width:1px;
+font-size:20px !important;
+}
+
+.menu_two{
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    font-size: 12px;
+    padding: 15px;
+    color:rgb(177, 177, 177);
+    background-color: #fff;
+    border: 0.5px solid rgb(204, 203, 203);
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+.menu_focus{
+    color:rgba(49, 49, 49, 0.904);
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 100px;
 }
