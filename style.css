@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.apple_logo{
+   width:14px
+}
+.menu-one{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: rgba(0,0,0,0.8);
+    list-style: none;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 190px;
+    padding-right: 190px;
+    align-items: center;
+
+}
+
+a{
+    color:rgb(193, 193, 193);
+    text-decoration: none;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.material-symbols-outlined{
+    width:1px;
+}
