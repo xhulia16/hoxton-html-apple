@@ -5,13 +5,14 @@
     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+
 .apple_logo{
    width:14px
 }
 .menu_one{
     display: grid;
     grid-auto-flow: column;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgb(51, 51, 51);
     list-style: none;
     font-size: 12px;
     padding: 10px;
@@ -34,8 +35,8 @@ font-size:20px !important;
     background-color: rgb(245, 245, 247);
     border: 0.5px solid rgb(204, 203, 203);
     place-items: center;
-    padding-left: 400px;
-    padding-right: 400px;
+
+
 }
 
 .unicef_logo{
@@ -81,6 +82,18 @@ font-size:20px !important;
 }
 .main-image{
     display: grid;
+
     background-color: rgb(251, 251, 253); 
     place-items: center;
+}
+
+@media screen and (max-width: 950px) {
+    .menu_one_item{
+        display: none;
+    }
+    .menu_one{
+display: grid;
+padding: 0%;
+place-items: center;
+    }
 }
