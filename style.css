@@ -18,7 +18,6 @@
     padding-left: 190px;
     padding-right: 190px;
     align-items: center;
-
 }
 
 a{
@@ -32,19 +31,18 @@ font-size:20px !important;
 .menu_two{
     display: grid;
     grid-auto-flow: column;
-    list-style: none;
-    font-size: 12px;
-    padding: 15px;
-    color:rgb(177, 177, 177);
-    background-color: #fff;
+    background-color: rgb(245, 245, 247);
     border: 0.5px solid rgb(204, 203, 203);
-    padding-left: 190px;
-    padding-right: 190px;
+    place-items: center;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
-.menu_focus{
-    color:rgba(49, 49, 49, 0.904);
-    font-weight: bold;
-    font-size: 20px;
-    padding-right: 100px;
+.unicef_logo{
+    width: 130px;
+}
+.unicef_link{
+    font-style: initial;
+    font-size: 14px;
+    color:rgb(39, 125, 212);
 }
