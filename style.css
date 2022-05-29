@@ -58,13 +58,24 @@ font-size:20px !important;
 }
 
 .iphone_text{
-    font-size: 1.4cm;
+    font-size: 53px;
     color: rgb(29, 31, 31)
 }
 
 .iphone_text_subtitle{
-    font-size: 0.7cm;
+    font-size: 26.5px;
     color: rgb(37, 39, 39);
     font-weight: 300;
 }
+.learn_more{
+    display: grid;
+    grid-auto-flow: column;
+    place-content: center;
+    grid-column-gap: 15px;
+    background-color: rgb(251, 251, 253); 
+}
     
+.learn_buy{
+    font-size: 20px;
+    color:rgb(39, 125, 212);
+}
