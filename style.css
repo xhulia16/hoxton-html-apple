@@ -29,6 +29,10 @@ a{
 font-size:20px !important;
 }
 
+a:hover{
+    color:rgb(240, 240, 240);
+}
+
 .menu_two{
     display: grid;
     grid-auto-flow: column;
@@ -46,6 +50,11 @@ font-size:20px !important;
     font-style: initial;
     font-size: 14px;
     color:rgb(39, 125, 212);
+}
+
+.unicef_link:hover{
+    color:rgb(39, 125, 212);
+    text-decoration: underline;
 }
 
 .main_text{
@@ -80,6 +89,12 @@ font-size:20px !important;
     font-size: 20px;
     color:rgb(39, 125, 212);
 }
+
+.learn_buy:hover{
+    color:rgb(39, 125, 212);
+    text-decoration: underline;
+}
+
 .main-image{
     display: grid;
 
