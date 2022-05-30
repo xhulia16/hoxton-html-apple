@@ -5,6 +5,10 @@
     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+body{
+    min-height: 100vh;
+    display: grid;
+}
 
 .apple_logo{
    width:14px
