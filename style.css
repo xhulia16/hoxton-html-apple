@@ -155,4 +155,43 @@ place-items: center;
 .third_page{
     display: grid;
     border: 2px solid black;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 500px;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.product-item_third_page {
+    display: grid;
+    justify-items: center;
+    align-content: start;
+    border: 2px solid black;
+    color: rgb(198, 225, 230);
+}
+.product-item_third_page{
+    align-content: end;
+    position: relative;
+}
+
+
+.product-item_title{
+align-content: center;
+font-size: 40px;
+}
+
+.product-item_link{
+    font-size: 15px;
+    color:rgb(39, 125, 212);
+}
+
+.product-item_link:hover{
+    color:rgb(39, 125, 212);
+    text-decoration: underline;
+}
+
+.product-item_video{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
 }
