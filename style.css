@@ -138,3 +138,16 @@ place-items: center;
         margin: auto; 
     }
     }
+
+    .second_page{
+        display: grid;
+        background-color: rgb(251, 251, 253); 
+        padding: 30px;
+        justify-items: center;
+        margin-top: 20px;
+    }
+.iphoneSE{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
