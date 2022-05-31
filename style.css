@@ -151,3 +151,8 @@ place-items: center;
     place-items: center;
     padding: 10px;
 }
+
+.third_page{
+    display: grid;
+    border: 2px solid black;
+}
