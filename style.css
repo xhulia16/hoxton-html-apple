@@ -2,18 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-body{
+body {
     min-height: 100vh;
     display: grid;
 }
 
-.apple_logo{
-   width:14px
+.apple_logo {
+    width: 14px
 }
-.menu_one{
+
+.menu_one {
     display: grid;
     grid-auto-flow: column;
     background-color: rgb(51, 51, 51);
@@ -25,43 +26,46 @@ body{
     align-items: center;
 }
 
-a{
-    color:rgb(193, 193, 193);
+a {
+    color: rgb(193, 193, 193);
     text-decoration: none;
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;}
-.material-symbols-outlined{
-font-size:20px !important;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-a:hover{
-    color:rgb(240, 240, 240);
+.material-symbols-outlined {
+    font-size: 20px !important;
 }
 
-.menu_two{
+a:hover {
+    color: rgb(240, 240, 240);
+}
+
+.menu_two {
     display: grid;
     grid-auto-flow: column;
     background-color: rgb(245, 245, 247);
     place-items: center;
     padding-left: 400px;
     padding-right: 400px;
-    
+
 }
 
-.unicef_logo{
+.unicef_logo {
     width: 130px;
 }
-.unicef_link{
+
+.unicef_link {
     font-style: initial;
     font-size: 14px;
-    color:rgb(39, 125, 212);
+    color: rgb(39, 125, 212);
 }
 
-.unicef_link:hover{
-    color:rgb(39, 125, 212);
+.unicef_link:hover {
+    color: rgb(39, 125, 212);
     text-decoration: underline;
 }
 
-.main_text{
+.main_text {
     display: grid;
     padding: 30px;
     font-weight: 700;
@@ -71,89 +75,102 @@ a:hover{
 
 }
 
-.iphone_text{
+.iphone_text {
     font-size: 53px;
     color: rgb(29, 31, 31)
 }
 
-.iphone_text_subtitle{
+.iphone_text_subtitle {
     font-size: 26.5px;
     color: rgb(37, 39, 39);
     font-weight: 300;
 }
-.learn_more{
+
+.learn_more {
     display: grid;
     grid-auto-flow: column;
     place-content: center;
     grid-column-gap: 15px;
-    background-color: rgb(251, 251, 253); 
-}
-    
-.learn_buy{
-    font-size: 20px;
-    color:rgb(39, 125, 212);
+    background-color: rgb(251, 251, 253);
 }
 
-.learn_buy:hover{
-    color:rgb(39, 125, 212);
+.learn_buy {
+    font-size: 20px;
+    color: rgb(39, 125, 212);
+}
+
+.learn_buy:hover {
+    color: rgb(39, 125, 212);
     text-decoration: underline;
 }
 
-.main-image{
+.main-image {
     display: grid;
 
-    background-color: rgb(251, 251, 253); 
+    background-color: rgb(251, 251, 253);
     place-items: center;
 }
 
-.main-image_responsive{
+.main-image_responsive {
     display: none;
 }
 
 @media screen and (max-width: 950px) {
-    .menu_one_item{
+    .menu_one_item {
         display: none;
     }
-    .menu_one{
-display: grid;
-padding: 0%;
-place-items: center;
+
+    .menu_one {
+        display: grid;
+        padding: 0%;
+        place-items: center;
     }
-    .menu_two{
+
+    .menu_two {
         display: grid;
         grid-auto-flow: row;
         place-items: center;
         padding-left: 0px;
         padding-right: 0px;
-        
+
     }
 }
 
 @media screen and (max-width: 740px) {
-    .main-image{
-        display: none; 
+    .main-image {
+        display: none;
     }
-    .main-image_responsive{
+
+    .main-image_responsive {
         display: block;
-        margin: auto; 
+        margin: auto;
 
     }
-    }
-
-    .second_page{
-        display: grid;
-        background-color: rgb(251, 251, 253); 
-        padding: 30px;
-        justify-items: center;
-        margin-top: 20px;
-    }
-.iphoneSE{
-    display: grid;
-    place-items: center;
-    padding: 10px;
 }
 
-.third_page{
+.second_page {
+    display: grid;
+    background-color: rgb(251, 251, 253);
+    padding: 30px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.iphoneSE {
+    display: grid;
+    place-items: center;
+    padding:10px;
+}
+
+.iphone13-image{
+    width:100%;
+}
+
+.iphone-13_section{
+    background-color:#fbfbfd ;
+}
+
+.third_page {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 500px;
@@ -167,69 +184,72 @@ place-items: center;
     align-content: start;
     color: rgb(198, 225, 230);
 }
-.product-item_third_page{
+
+.product-item_third_page {
     align-content: end;
     position: relative;
 }
 
 
-.product-item_title{
-align-content: center;
-font-size: 40px;
+.product-item_title {
+    align-content: center;
+    font-size: 40px;
 }
 
-.product-item_link{
+.product-item_link {
     font-size: 15px;
-    color:rgb(39, 125, 212);
+    color: rgb(39, 125, 212);
 }
 
-.product-item_link:hover{
-    color:rgb(39, 125, 212);
+.product-item_link:hover {
+    color: rgb(39, 125, 212);
     text-decoration: underline;
 }
 
-.product-item_video{
+.product-item_video {
     position: absolute;
     width: 100%;
-    height:100%;
+    height: 100%;
     object-fit: cover;
     z-index: -1;
 }
-.product-item_third_page.two{
-position:relative;
-align-content: start;
+
+.product-item_third_page.two {
+    position: relative;
+    align-content: start;
 }
 
-.item_two_title{
-    color:rgb(201, 92, 28);
+.item_two_title {
+    color: rgb(201, 92, 28);
     font-weight: bolder;
 }
-.item_two_text{
+
+.item_two_text {
     color: rgb(29, 31, 31);
-    font-weight:bold;
-   font-size: 30px;
+    font-weight: bold;
+    font-size: 30px;
 }
-.item_two_paragraph{
+
+.item_two_paragraph {
     color: rgb(29, 31, 31);
     font-size: larger;
 }
 
-.item_two_image{
+.item_two_image {
     position: absolute;
     width: 100%;
-    height:100%;
+    height: 100%;
     object-fit: cover;
     z-index: -1;
 }
 
-.footer{
-    margin-top: 18px;
+.footer {
     background-color: rgb(245, 245, 247);
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 74vw;
+    justify-content: center;
 }
-.footer_notes{
+.footer_notes {
     font-size: small;
-    color:rgb(124, 124, 124);
+    color: rgb(124, 124, 124);
 }
